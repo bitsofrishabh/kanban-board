@@ -97,8 +97,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "kanban-board:build:production"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7ca6aeb0-d1ab-4922-a8ea-c66b35f072d6"
   }
 }
